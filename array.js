@@ -55,22 +55,26 @@ for(var i = 3; i< 15; i++) {
 //  console.log(samenum[0])
 
 //accessor functions
-var names =["gbenga", "Joel", "olaseni"];
-const readline = require('readline');
+// var names =["gbenga", "Joel", "olaseni"];
+// const readline = require('readline');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-var me = [];
-rl.question('Enter something: ', (userInput) => {
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+// var me = [];
+// rl.question('Enter something: ', (userInput) => {
    
-var position =names.indexOf(userInput);
+// var position =names.indexOf(userInput);
 
-if (position >=0 ){
-    console.log(`your name ${userInput} was found at position ${position}`)
-} else {
-    console.log(`Your name ${userInput}, was not found in the list`)
-}
-  rl.close();
-});
+// if (position >=0 ){
+//     console.log(`your name ${userInput} was found at position ${position+1}`)
+// } else {
+//     console.log(`Your name ${userInput}, was not found in the list`)
+// }
+//   rl.close();
+// });
+
+const array = [1, 2, 3, 4 ,[1, 2, 3, 4]];
+console.log(array.toString()) ;
+
